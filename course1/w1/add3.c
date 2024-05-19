@@ -12,7 +12,7 @@ int main(void)
     printf("Enter three floats: ");
     scanf("%f %f %f", &a, &b, &c);
     printf("You enterd %f %f %f\n", a, b);
-    
+
     sum = a + b + c;
     printf("Sum: %f\n", sum);
     return 0;
