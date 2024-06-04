@@ -5,6 +5,8 @@
  * Fundamental Types Declaration and Assignment
  */
 
+#include <stdio.h>
+
 /**
  * @brief Main function to calculate the average of three numbers.
  *
@@ -17,8 +19,8 @@ int main(void)
 {
     // declare and initialize
     int a = 5; 
-    int b = 7;
-    int c = 6;
+    int b = 8;
+    int c = 3;
     double average = 0.0;  // good practice
 
     printf("a = %d, b = %d, c = %d\n", a, b, c);
