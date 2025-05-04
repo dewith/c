@@ -54,3 +54,7 @@ dkms.conf
 
 *.DS_Store
 .vscode/
+
+# Ignore anything inside a folder named "output"
+output/
+**/output/
