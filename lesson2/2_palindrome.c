@@ -23,7 +23,10 @@ int is_palindrome(char* string) {
     for (int i = 0; i <= right_index; i++){
         char char_left = string[left_index + i];
         char char_right = string[right_index - i];
-        printf("Checking [%d] left/right: '%c' == '%c'\n", i, char_left,  char_right);
+        printf(
+            "Checking [%d] left/right: '%c' == '%c'\n", 
+            i, char_left,  char_right
+        );
         if (char_left != char_right) return 0;
     }
     return 1;
