@@ -51,6 +51,9 @@ int main() {
         );
     }
 
+    // free the allocated memory
+    free(sales);
+
     return 0;
 }
 
