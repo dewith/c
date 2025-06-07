@@ -9,9 +9,9 @@
 #include <stdlib.h>
 
 // base structures
-typedef struct StructNode {
+typedef struct Node {
     int data;
-    struct StructNode *next;
+    struct Node *next;
 } Node;
 
 typedef struct {
